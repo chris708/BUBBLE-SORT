@@ -1,3 +1,5 @@
+import time 
+begin = time.time() 
 def bubbleSort(array):
     
     # run loops two times: one for walking throught the array 
@@ -16,3 +18,7 @@ data = [-2, 45, 0, 11, -9]
 bubbleSort(data)
 print('Sorted Array in Asc ending Order:')
 print(data)
+
+time.sleep(1) 
+end = time.time() 
+print(f"Total runtime of the program is {end - begin}") 
